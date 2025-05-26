@@ -7,7 +7,7 @@ def main():
             break
 
         retrieved_chunks = parallel_query(query)
-
+        
         if not retrieved_chunks:
             print("No relevant results found")
         else:
